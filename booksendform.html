@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>Book download</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="bk_style.css">
+</head>
+<body>
+    <p class="my_text">Заполните форму и книга будет направлена на вашу почту ( электронную, конечно )</p>
+    <img src="good_book.png" alt="good book">
+    <form action="emailSend.php" method="POST" name="mainform" enctype="multipart/form-data">
+    <table width="500" border="0" cellpadding="5" cellspacing="5">
+       <tr>
+        <th>Ваше имя</th>
+        <td><input name="fieldFormName" type="text"></td>
+    </tr>
+    <tr>
+    <tr>
+        <th>Ваш e-mail</th>
+        <td><input name="fieldFormEmail" type="text"></td>
+    </tr>
+   
+        <td colspan="2" style="text-align:center;"><input type="submit" name="Submit" value="Send"></td>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>
