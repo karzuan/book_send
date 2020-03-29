@@ -1,4 +1,4 @@
 book_send
 =========
 
-This script using html form and send data( a book in pdf ) to derected email
+This script via html form sends a pdf book on specified email
